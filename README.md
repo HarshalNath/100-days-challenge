@@ -10,13 +10,14 @@ This project is a simple demonstration of a responsive navigation bar for a webs
 
 ## Preview
 
+### mobile
 
+![Alt Text](./assets/mobile.png)
 
-## How to Use
+### tablet
 
-1. Clone this repository:
+![Alt Text](./assets/Tablet.png)
 
-```bash
-git clone https://github.com/HarshalNath/100-days-challenge
+### desktop
 
-## screenshots
+![Alt Text](./assets/desktop.png)
