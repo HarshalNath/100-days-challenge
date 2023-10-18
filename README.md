@@ -1,4 +1,4 @@
-# <span style="color:#34568b;">Responisve navigation bar</span>
+# <span style="color:#34568b;">01 -- Responisve navigation bar</span>
 
 This project is a simple demonstration of a responsive navigation bar for a website. The navigation bar adapts to different screen sizes, ensuring a user-friendly experience on both desktop and mobile devices.
 
