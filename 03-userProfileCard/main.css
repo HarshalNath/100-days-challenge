@@ -1,0 +1,131 @@
+@import url("https://fonts.googleapis.com/css2?family=Comfortaa:wght@400;700&family=Poppins:wght@300&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+body {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 1rem;
+  background-color: rgb(237, 233, 224);
+}
+.card-container {
+  background-color: rgb(31, 31, 32);
+  color: white;
+  padding: 2rem;
+  width: 20rem;
+  margin: 0.5rem;
+  border-radius: 0.4rem;
+}
+.cart-top-navigation {
+  display: flex;
+  justify-content: space-between;
+}
+.cart-top-navigation li,
+.cart-top-navigation ul {
+  list-style: none;
+  font-size: 1.2rem;
+}
+.user-image {
+  display: flex;
+  justify-content: center;
+}
+.user-image img {
+  width: 7rem;
+  height: 7rem;
+  object-fit: cover;
+  border-radius: 50%;
+  margin-bottom: 1rem;
+}
+.user-name {
+  margin-bottom: 2rem;
+}
+.user-name,
+.about-user {
+  text-align: center;
+}
+
+/* .hire-me {
+  display: block;
+  margin: 1.2rem auto;
+  padding: 0.8rem 1.6rem;
+  border-radius: 0.8rem;
+  outline: none;
+  border: none;
+  font-weight: bolder;
+  font-size: 1rem;
+  color: green;
+}
+.hire-me:hover {
+  background: radial-gradient(
+    circle at 100% 107%,
+    #fdf497 0%,
+    #fdf497 5%#fd5949 45%,
+    #d6249f 60%,
+    #285aeb 90%
+  );
+} */
+.hire-me {
+  /* width: 8rem; */
+  margin: 1.5rem auto;
+  display: block;
+  border: none;
+  padding: 0.8rem 1.6rem;
+  border-radius: 2rem;
+  font-size: 1rem;
+  cursor: pointer;
+}
+
+.hire-me:hover {
+  background: radial-gradient(
+    circle at 100% 107%,
+    #fdf497 0%,
+    #fdf497 5%#fd5949 45%,
+    #d6249f 60%,
+    #285aeb 90%
+  );
+}
+
+.social-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+}
+.social-item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-top: 1rem;
+}
+.social-item li {
+  list-style: none;
+  padding: 0.3rem 0.8rem;
+  border-radius: 15%;
+  border: 1px solid white;
+  margin-bottom: 1rem;
+}
+.instagram {
+  background: radial-gradient(
+    circle at 30% 107%,
+    #fdf497 0%,
+    #fdf497 5%,
+    #fd5949 45%,
+    #d6249f 60%,
+    #285aeb 90%
+  );
+}
+.youtube {
+  background: red;
+}
+.twitter {
+  background: #285aeb;
+}
