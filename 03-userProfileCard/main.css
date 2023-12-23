@@ -52,26 +52,6 @@ body {
   text-align: center;
 }
 
-/* .hire-me {
-  display: block;
-  margin: 1.2rem auto;
-  padding: 0.8rem 1.6rem;
-  border-radius: 0.8rem;
-  outline: none;
-  border: none;
-  font-weight: bolder;
-  font-size: 1rem;
-  color: green;
-}
-.hire-me:hover {
-  background: radial-gradient(
-    circle at 100% 107%,
-    #fdf497 0%,
-    #fdf497 5%#fd5949 45%,
-    #d6249f 60%,
-    #285aeb 90%
-  );
-} */
 .hire-me {
   /* width: 8rem; */
   margin: 1.5rem auto;
@@ -128,4 +108,10 @@ body {
 }
 .twitter {
   background: #285aeb;
+}
+.social-item i {
+  font-size: 1.5rem;
+}
+.social-item span {
+  margin-top: 0.5rem;
 }

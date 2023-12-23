@@ -8,5 +8,3 @@ toggleHeart.addEventListener("click", () => {
     toggleHeart.style.color = "white";
   }
 });
-
-console.log(toggleHeart.classList.toggle("fa-solid"));
