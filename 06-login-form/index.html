@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <title>login page</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" type="text/css" media="screen" href="main.css" />
+    <script src="main.js"></script>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
+      integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+  </head>
+  <body>
+    <div class="container">
+      <h2 class="t-center">Login</h2>
+      <form action="">
+        <!-- * input field -- 1-usernmae -- -->
+        <div class="inputDiv">
+          <label for="name" class="username">username</label>
+          <div class="userArea">
+            <i class="fa-solid fa-user"></i>
+            <input
+              type="text"
+              name="name"
+              id="name"
+              placeholder="Type your usernmae"
+            />
+          </div>
+          <hr />
+        </div>
+        <!-- * input field -- 2-password -- -->
+        <div class="inputDiv">
+          <label for="password" class="username">Password</label>
+          <div class="userArea">
+            <i class="fa-solid fa-key"></i>
+            <input
+              type="password"
+              name="password"
+              id="password"
+              placeholder="enter your password"
+            />
+          </div>
+          <hr />
+        </div>
+        <span class="forgetPasword">Forget Password?</span>
+        <button class="btn">Login</button>
+        <div class="formbottom">
+          <p>or sign up using</p>
+          <ul class="flexU1">
+            <a href="https://www.faceboook.com" target="_blank">
+              <li><i class="fa-brands fa-facebook-f"></i></li>
+            </a>
+            <a href="www.instagram.com" target="_blank">
+              <li><i class="fa-brands fa-instagram"></i></li>
+            </a>
+            <a href="www.instagram.com" target="_blank">
+              <li><i class="fa-brands fa-google"></i></li>
+            </a>
+          </ul>
+          <p class="signup">or sign up using</p>
+          <p id="signup">SIGN UP</p>
+        </div>
+      </form>
+    </div>
+    <!-- *script partbof icons below -->
+    <script
+      src="https://kit.fontawesome.com/b00f5e8bdd.js"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
