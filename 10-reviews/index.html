@@ -6,7 +6,44 @@
     <title>Reviews</title>
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <link rel="stylesheet" type="text/css" media="screen" href="main.css" />
-    <script src="main.js"></script>
+    <script
+      src="https://kit.fontawesome.com/b00f5e8bdd.js"
+      crossorigin="anonymous"
+    ></script>
   </head>
-  <body></body>
+  <body>
+    <main>
+      <section class="container">
+        <!-- - TITLE -->
+        <div class="title">
+          <h2>our review</h2>
+          <div class="underline"></div>
+        </div>
+        <!-- - REVIEW -->
+        <article class="review">
+          <div class="img-container">
+            <img src="./person-1.jpeg" id="person-img" alt="profile-pic" />
+          </div>
+          <h4 id="author">Sara johns</h4>
+          <p id="job">ux designer</p>
+          <p id="info">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Quaerat,
+            libero nostrum voluptates quisquam magnam necessitatibus.
+          </p>
+          <!-- - prev and next btns -->
+          <div class="button-container">
+            <button class="prev-btn">
+              <i class="fa-solid fa-less-than"></i>
+            </button>
+            <button class="next-btn">
+              <i class="fa-solid fa-greater-than"></i>
+            </button>
+          </div>
+
+          <button class="random-btn">suprise me</button>
+        </article>
+      </section>
+    </main>
+    <script src="./script.js"></script>
+  </body>
 </html>
